@@ -62,10 +62,10 @@ Examples:
 | 🔢 Landmark ID | 📍 Description      |
 | -------------- | ------------------- |
 | 0              | Wrist               |
-| 4              | Thumb Tip 👍        |
-| 8              | Index Finger Tip ☝️ |
+| 4              | Thumb Tip           |
+| 8              | Index Finger Tip    |
 | 12             | Middle Finger Tip   |
-| 16             | Ring Finger Tip 💍  |
+| 16             | Ring Finger Tip     |
 | 20             | Pinky Tip           |
 
 These landmarks can be used for:
