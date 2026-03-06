@@ -272,7 +272,7 @@ The default **MediaPipe Gesture Recognizer model** detects several predefined ge
 
 ---
 
-#  📷 Output
+##  📷 Output
 
 ## 🚀 Applications
 
