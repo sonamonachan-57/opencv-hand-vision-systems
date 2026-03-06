@@ -45,12 +45,15 @@ pip install opencv-python mediapipe
 1️⃣ The webcam captures frames using **OpenCV **
 
 2️⃣ Each frame is converted from **BGR → RGB ** format
-3️⃣ MediaPipe processes the frame to detect hands 
+
+3️⃣ MediaPipe processes the frame to detect hands
+
 4️⃣ If hands are detected:
 
 *  **21 hand landmarks** are identified
 * 🔗 Landmarks and their connections are drawn on the frame
-  5️⃣ The processed frame is displayed in a window 🖥️
+  
+5️⃣ The processed frame is displayed in a window 🖥️
 
 ---
 
@@ -143,15 +146,16 @@ pip install opencv-python mediapipe
 
 ---
 
-
----
-
 ## ⚙️ How It Works
 
-1️⃣ The webcam captures frames using **OpenCV 📷**
+1️⃣ The webcam captures frames using **OpenCV **
+
 2️⃣ Each frame is flipped horizontally for natural interaction
-3️⃣ The frame is converted from **BGR → RGB 🎨**
+
+3️⃣ The frame is converted from **BGR → RGB**
+
 4️⃣ **MediaPipe Hands** detects hands and returns **21 landmark points**
+
 5️⃣ The program checks whether each finger is **open or closed**:
 
 * 👍 Thumb → compared horizontally
@@ -161,24 +165,6 @@ pip install opencv-python mediapipe
 
 ---
 
-## 🖐 Hand Landmark Structure
-
-MediaPipe detects **21 landmarks** per hand.
-
-Examples:
-
-| 🔢 Landmark ID | 📍 Description      |
-| -------------- | ------------------- |
-| 0              | Wrist               |
-| 4              | Thumb Tip 👍        |
-| 8              | Index Finger Tip ☝️ |
-| 12             | Middle Finger Tip   |
-| 16             | Ring Finger Tip 💍  |
-| 20             | Pinky Tip           |
-
-These points allow the program to determine whether each finger is **raised or folded**.
-
----
 
 ## 🚀 Applications
 
