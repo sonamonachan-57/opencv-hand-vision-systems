@@ -1,9 +1,3 @@
-
-import os
-import sys
-venv_path = '/home/sona-inc5619/mp_env/lib/python3.12/site-packages'
-if os.path.exists(venv_path) and venv_path not in sys.path:
-    sys.path.insert(0, venv_path)
 import cv2
 import mediapipe as mp
 
