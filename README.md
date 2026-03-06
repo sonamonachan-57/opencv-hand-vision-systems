@@ -98,3 +98,99 @@ This hand tracking system can be extended to build:
 
 * 🧠 **Google MediaPipe** for providing the hand tracking model
 * 📷 **OpenCV** for real-time image processing
+---
+
+
+# 2.  ✋ Finger Counter using OpenCV and MediaPipe
+
+## 📌 Overview
+
+This project demonstrates a **real-time finger counting system** using **OpenCV** and **MediaPipe Hands**. The program detects hands from a webcam feed, tracks **21 hand landmarks**, and determines how many fingers are raised.
+
+The system analyzes the position of finger tips relative to their joints to determine whether each finger is **open or closed**, and then displays the total number of raised fingers on the screen.
+
+This type of system is commonly used in **gesture recognition, touchless interfaces, and human–computer interaction applications 🤖**.
+
+---
+
+## ✨ Features
+
+*  Real-time **hand detection and tracking**
+*  **Counts raised fingers automatically**
+*  Supports **up to 2 hands simultaneously**
+*  Uses **21 MediaPipe hand landmarks**
+*  Displays the **total finger count on screen**
+*  Lightweight and runs in **real-time**
+
+---
+
+## 🛠 Technologies Used
+
+*  **Python**
+*  **OpenCV** – webcam capture and display
+*  **MediaPipe Hands** – hand tracking and landmark detection
+
+---
+
+## 📦 Installation
+
+### 1️⃣ Install required libraries
+
+```bash
+pip install opencv-python mediapipe
+```
+
+---
+
+
+---
+
+## ⚙️ How It Works
+
+1️⃣ The webcam captures frames using **OpenCV 📷**
+2️⃣ Each frame is flipped horizontally for natural interaction
+3️⃣ The frame is converted from **BGR → RGB 🎨**
+4️⃣ **MediaPipe Hands** detects hands and returns **21 landmark points**
+5️⃣ The program checks whether each finger is **open or closed**:
+
+* 👍 Thumb → compared horizontally
+* ☝️ Other fingers → compared vertically
+
+6️⃣ The number of raised fingers is calculated and displayed on the screen.
+
+---
+
+## 🖐 Hand Landmark Structure
+
+MediaPipe detects **21 landmarks** per hand.
+
+Examples:
+
+| 🔢 Landmark ID | 📍 Description      |
+| -------------- | ------------------- |
+| 0              | Wrist               |
+| 4              | Thumb Tip 👍        |
+| 8              | Index Finger Tip ☝️ |
+| 12             | Middle Finger Tip   |
+| 16             | Ring Finger Tip 💍  |
+| 20             | Pinky Tip           |
+
+These points allow the program to determine whether each finger is **raised or folded**.
+
+---
+
+## 🚀 Applications
+
+This finger counting system can be extended to build:
+
+* 🖐 **Hand gesture recognition**
+* 🖱 **Virtual mouse control**
+* 🔊 **Gesture-based volume control**
+* 🎮 **Touchless gaming interfaces**
+* 🤖 **Robot control using finger gestures**
+* 🧠 **Human–computer interaction systems**
+
+---
+
+## 📷 Output:
+
