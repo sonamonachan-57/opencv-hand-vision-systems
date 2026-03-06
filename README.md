@@ -4,7 +4,7 @@
 
 This project demonstrates **real-time hand detection and tracking** using **OpenCV** and **MediaPipe Hands**. The system captures video from a webcam, detects hands in each frame, and overlays **21 hand landmarks** along with their skeletal connections.
 
-MediaPipe’s hand tracking model is optimized for **real-time performance ⚡** and can track multiple hands simultaneously, making it suitable for applications such as **gesture recognition, virtual control systems, and human–computer interaction 🤖**.
+MediaPipe’s hand tracking model is optimized for **real-time performance** and can track multiple hands simultaneously, making it suitable for applications such as **gesture recognition, virtual control systems, and human–computer interaction**.
 
 ---
 
@@ -113,7 +113,7 @@ This project demonstrates a **real-time finger counting system** using **OpenCV*
 
 The system analyzes the position of finger tips relative to their joints to determine whether each finger is **open or closed**, and then displays the total number of raised fingers on the screen.
 
-This type of system is commonly used in **gesture recognition, touchless interfaces, and human–computer interaction applications 🤖**.
+This type of system is commonly used in **gesture recognition, touchless interfaces, and human–computer interaction applications**.
 
 ---
 
