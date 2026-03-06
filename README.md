@@ -29,14 +29,9 @@ MediaPipe’s hand tracking model is optimized for **real-time performance ⚡**
 
 ## 📦 Installation
 
-### 1️⃣ Clone the repository
 
-```bash
-git clone https://github.com/your-username/hand-tracking-mediapipe.git
-cd hand-tracking-mediapipe
-```
 
-### 2️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 pip install opencv-python mediapipe
