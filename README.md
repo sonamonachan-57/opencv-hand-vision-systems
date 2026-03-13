@@ -188,7 +188,8 @@ This finger counting system can be extended to build:
   <img src="output/finger-4.png" width="250"/>
   <img src="output/finger-5.png" width="250"/>
   </p>
----
+
+ ---
 
 # 3. ✋ Hand Gesture Recognition using MediaPipe and OpenCV
 
@@ -279,7 +280,17 @@ The default **MediaPipe Gesture Recognizer model** detects several predefined ge
 
 ---
 
-##  📷 Output
+##  📷 Output:
+
+<p align="center">
+  <img src="output/thumbs-up.png" width="250"/>
+  <img src="output/thumbs-down.png" width="250"/>
+  <img src="output/closed-fist.png" width="250"/>
+  <img src="output/open-palm.png" width="250"/>
+  <img src="output/victory" width="250"/>
+  <img src="output/i-love-u" width="250"/>
+  </p>
+
 
 ## 🚀 Applications
 
