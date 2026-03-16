@@ -373,16 +373,16 @@ Display Virtual Whiteboard
 
 ## ✨ Features
 
-- 🖐️ Real-time hand gesture tracking
-- 🎨 Virtual drawing canvas
-- 🖌 Brush tool for drawing
-- 🧽 Eraser tool
-- ↩ Undo functionality
-- 💾 Save drawings as images
-- 🗑 Clear canvas
-- 🎨 Color palette selection
-- 🔷 Shape recognition (Circle and Rectangle)
-- 📷 Webcam-based interaction
+-  Real-time hand gesture tracking
+-  Virtual drawing canvas
+-  Brush tool for drawing
+-  Eraser tool
+-  Undo functionality
+-  Save drawings as images
+-  Clear canvas
+-  Color palette selection
+-  Shape recognition (Circle and Rectangle)
+-  Webcam-based interaction
 
 ---
 
